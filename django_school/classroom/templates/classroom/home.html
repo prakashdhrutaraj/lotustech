@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to the Lotus Schools! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">Login</a>. If you are new to Lotus Schools, get started
+    by creating a <a href="{% url 'student_signup' %}">Student Account</a> or a <a href="{% url 'teacher_signup' %}">Teacher Account</a>.
+  </p>
+  <hr>
+  <h3>What's this about?</h3>
+  <p class="lead">
+    This is online school quizz application.In this application, users can sign up as a student or a teacher. Teachers can create quizzes and students can answer quizzes
+    based on their interests.
+  </p>
+  <h3>About Lotus Technologies!</h3>
+  <p class="lead">
+    Lotus Technologies is a Software Development Comapny,specialised in 
+    Programming Languages,Databases and BigData,Operating Systems like Linux/Unix,Embedded Systems Development,Internet of Things,web and Android Application Development,Artificial Intellegence and Machine Learning.
+    We are the masters willing to share the knowledge,experience and technology!
+  </p>
+  <h3>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd29Arwl7oUnwy-bGtmRxRfANdmNvSbLIn8CqibwFwfLEZ4VQ/viewform">Click Here For Training Enquiry Form</a></p>
+  </h3>
+  <h3>Office Address</h3>
+  <p class="lead">
+    Jay Martand Appartment,Flat No.301<br>
+    Plot No.68,Sector 20-B,Airoli,<br>
+    Navi Mumbai-400708<br>
+    Marashtra,India
+  </p>
+  <h3>Contact and WhatsApp</h3>
+  <p class="lead">
+  +91 9820856498
+  </p>
+  <h3>E-mail</h3>
+  <p class="lead">
+  dhrutarajprakash@gmail.com
+  </p>
+  {% endblock %}
